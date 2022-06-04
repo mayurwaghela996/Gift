@@ -1,0 +1,233 @@
+<!-- <!DOCTYPE html>
+<html>
+<title>W3.CSS</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+  body
+  {
+    background-color: rgba(27,31,34,0.85);
+  }
+
+  .container
+  {
+    width: 70%;
+    height: 400px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    background-size: 100%,100%;
+    box-shadow: 1px 2px 10px 5px white;
+  }
+
+
+</style>
+<body>
+
+<div class="w3-container">
+  <h2>Slideshow Caption</h2>
+  <p>Add a caption text for each image slide with the w3-display-* classes (topleft, topmiddle, topright, bottomleft, bottommiddle, bottomright or middle).</p>
+</div>
+
+<div class="container">
+
+<div class="w3-display-container mySlides">
+  <img src="../gift/Images/1.jfif" style="width:100% ">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    French Alps
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="../gift/Images/2.jfif" style="width:100% ",>
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Northern Lights
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="../gift/Images/3.jfif" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Beautiful Mountains
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="../gift/Images/4.jfif" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    The Rain Forest
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="../gift/Images/5.jfif" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Mountains!
+  </div>
+</div>
+
+<div class="w3-display-container mySlides">
+  <img src="../gift/Images/6.jpg" style="width:100%">
+  <div class="w3-display-middle w3-large w3-container w3-padding-16 w3-black">
+    Mountains!
+  </div>
+</div>
+
+<button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">&#10094;</button>
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
+
+</div>
+
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+</body>
+</html>
+ -->
+
+ <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <title>Background Audio in Webpage - Pure Coding</title>
+
+    <audio controls>
+        <source src="https://www.youtuberepeater.com/watch?v=BCRroLcSOpA#gsc.tab=0" type="audio/mpeg">
+    </audio>
+    
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #000;
+}
+
+.wrapper {
+    margin: 20px;
+}
+
+.wrapper h1 {
+    color: #FFF;
+    font-weight: 800;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.wrapper p {
+    color: #FFF;
+    font-weight: 500;
+    text-align: justify;
+    margin: 20px 0;
+}
+
+.wrapper p:last-child {
+    margin-bottom: 0;
+}
+
+.audio {
+    position: absolute;
+    left: -999px;
+    top: -999px;
+}
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <h1>Background Audio in Webpage - Pure Coding</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolor
+        harum ex fugit voluptas. Consequatur dolores doloribus, amet aperiam sint
+        aliquid sit quisquam libero explicabo, cum dolorum itaque! Distinctio at,
+        numquam dicta asperiores harum porro est veritatis quibusdam, dignissimos
+        in temporibus dolorum aliquid quas perferendis iure ut sapiente dolores
+        eligendi sunt fugit maiores voluptates. Assumenda esse voluptatem aut
+        maxime repellat eveniet doloribus nobis quam hic eaque necessitatibus qui,
+        quos itaque officia consequatur, soluta molestias beatae quod veritatis
+        aspernatur tempora modi? Vitae dolores cum temporibus? Modi tempore et
+        eveniet consequatur autem eligendi nam quo ut expedita. Ullam enim quas
+        commodi neque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolor
+        harum ex fugit voluptas. Consequatur dolores doloribus, amet aperiam sint
+        aliquid sit quisquam libero explicabo, cum dolorum itaque! Distinctio at,
+        numquam dicta asperiores harum porro est veritatis quibusdam, dignissimos
+        in temporibus dolorum aliquid quas perferendis iure ut sapiente dolores
+        eligendi sunt fugit maiores voluptates. Assumenda esse voluptatem aut
+        maxime repellat eveniet doloribus nobis quam hic eaque necessitatibus qui,
+        quos itaque officia consequatur, soluta molestias beatae quod veritatis
+        aspernatur tempora modi? Vitae dolores cum temporibus? Modi tempore et
+        eveniet consequatur autem eligendi nam quo ut expedita. Ullam enim quas
+        commodi neque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolor
+        harum ex fugit voluptas. Consequatur dolores doloribus, amet aperiam sint
+        aliquid sit quisquam libero explicabo, cum dolorum itaque! Distinctio at,
+        numquam dicta asperiores harum porro est veritatis quibusdam, dignissimos
+        in temporibus dolorum aliquid quas perferendis iure ut sapiente dolores
+        eligendi sunt fugit maiores voluptates. Assumenda esse voluptatem aut
+        maxime repellat eveniet doloribus nobis quam hic eaque necessitatibus qui,
+        quos itaque officia consequatur, soluta molestias beatae quod veritatis
+        aspernatur tempora modi? Vitae dolores cum temporibus? Modi tempore et
+        eveniet consequatur autem eligendi nam quo ut expedita. Ullam enim quas
+        commodi neque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolor
+        harum ex fugit voluptas. Consequatur dolores doloribus, amet aperiam sint
+        aliquid sit quisquam libero explicabo, cum dolorum itaque! Distinctio at,
+        numquam dicta asperiores harum porro est veritatis quibusdam, dignissimos
+        in temporibus dolorum aliquid quas perferendis iure ut sapiente dolores
+        eligendi sunt fugit maiores voluptates. Assumenda esse voluptatem aut
+        maxime repellat eveniet doloribus nobis quam hic eaque necessitatibus qui,
+        quos itaque officia consequatur, soluta molestias beatae quod veritatis
+        aspernatur tempora modi? Vitae dolores cum temporibus? Modi tempore et
+        eveniet consequatur autem eligendi nam quo ut expedita. Ullam enim quas
+        commodi neque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolor
+        harum ex fugit voluptas. Consequatur dolores doloribus, amet aperiam sint
+        aliquid sit quisquam libero explicabo, cum dolorum itaque! Distinctio at,
+        numquam dicta asperiores harum porro est veritatis quibusdam, dignissimos
+        in temporibus dolorum aliquid quas perferendis iure ut sapiente dolores
+        eligendi sunt fugit maiores voluptates. Assumenda esse voluptatem aut
+        maxime repellat eveniet doloribus nobis quam hic eaque necessitatibus qui,
+        quos itaque officia consequatur, soluta molestias beatae quod veritatis
+        aspernatur tempora modi? Vitae dolores cum temporibus? Modi tempore et
+        eveniet consequatur autem eligendi nam quo ut expedita. Ullam enim quas
+        commodi neque.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis dolor
+        harum ex fugit voluptas. Consequatur dolores doloribus, amet aperiam sint
+        aliquid sit quisquam libero explicabo, cum dolorum itaque! Distinctio at,
+        numquam dicta asperiores harum porro est veritatis quibusdam, dignissimos
+        in temporibus dolorum aliquid quas perferendis iure ut sapiente dolores
+        eligendi sunt fugit maiores voluptates. Assumenda esse voluptatem aut
+        maxime repellat eveniet doloribus nobis quam hic eaque necessitatibus qui,
+        quos itaque officia consequatur, soluta molestias beatae quod veritatis
+        aspernatur tempora modi? Vitae dolores cum temporibus? Modi tempore et
+        eveniet consequatur autem eligendi nam quo ut expedita. Ullam enim quas
+        commodi neque.</p>
+    </div>
+</body>
+</html>
